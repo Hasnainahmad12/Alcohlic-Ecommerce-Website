@@ -1,0 +1,72 @@
+.main__container{
+    background-image: url("../Images/back.jpg");
+    background-position: cover;
+    background-size: cover;
+    @apply h-screen w-screen
+}
+
+.login__container{
+    height: 450px;
+    width: 550px;
+    background: white;
+    border-radius: 15px;
+    margin: auto;
+    /* justify-content: center;
+    align-items: center;
+      */
+}
+
+.heading{
+    @apply text-center text-3xl font-bold p-5
+}
+
+.label__text{
+    @apply text-xl font-bold
+}
+
+.input__field{
+    @apply h-10 w-[420px] border border-gray-400 mt-3 rounded pl-3
+}
+
+.button__field{
+    @apply h-10 w-[420px] bg-blue-400 rounded text-lg font-semibold text-white cursor-pointer mt-8
+}
+
+.forget__password{
+    @apply float-right pr-16 pt-4
+}
+
+
+@media (max-width:800px){
+    
+    .login__container{
+     height: 400px;
+     width: 350px;
+     background: white;
+     border-radius: 15px;
+     margin-left: 3%;
+        /* justify-content: center;
+        align-items: center;
+          */
+    }   
+    .heading{
+        @apply text-center text-xl font-bold p-7
+    }
+
+    .label__text{
+        @apply text-lg font-bold
+    }
+
+    .input__field{
+        @apply h-8 w-[250px] border border-gray-400 mt-3 rounded pl-3 text-red-700
+    }
+
+    .button__field{
+        @apply h-8 w-[200px] ml-5 bg-blue-400 rounded text-lg font-semibold text-white cursor-pointer mt-8
+    }
+    
+    .forget__password{
+        @apply float-right pr-6 pt-4
+    }
+    
+}

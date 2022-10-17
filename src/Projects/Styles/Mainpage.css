@@ -1,0 +1,85 @@
+.filter__div{
+    height: 80px;
+    width: 100%;
+    background: pink;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product__button{
+    height: 30px;
+    width: 150px;
+    background: rgb(78, 78, 234);
+    border-radius: 5px;
+     margin-left: 13%;
+    margin-top: 20px; 
+    color: white;
+    font-weight: bold;
+}
+
+.search__input{
+    height: 30px;
+    width: 200px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.slider__image{
+    height: 450px;
+    width: 100%;
+}
+
+.backward{
+    margin-top: -45%;
+}
+
+.backward span{
+    font-size: 2em;
+    color: goldenrod;
+}
+
+@media (max-width:800px){
+    .filter__div{
+        height: 270px;
+        width: 100%;
+        background: pink;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .product__button{
+        height: 40px;
+        width: 250px;
+        background: rgb(78, 78, 234);
+        border-radius: 5px;
+         margin-left: 1%;
+        margin-top: 20px; 
+        color: white;
+        font-weight: bold;
+    }
+
+    .search__input{
+        height: 40px;
+        width: 250px;
+        float: right;
+        margin-top: 20px;
+        margin-right: 1px;
+        text-align: center;
+        border-radius: 5px;
+    }
+    
+    .backward{
+        margin-top: -150%;
+    }
+
+    .backward span{
+        font-size: 2em;
+        color: goldenrod;
+    }
+
+}

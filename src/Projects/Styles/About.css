@@ -1,0 +1,47 @@
+.second_div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    height: 250px;
+    width: 90%;
+    background: rgb(39, 6, 6);
+    margin-top: 60px;
+}
+
+.second_divHead{
+    @apply text-red-600 text-3xl p-14
+}
+
+.changing_text{
+    @apply text-center text-3xl font-semibold pt-16
+}
+
+.changing_paragh{
+    @apply text-center text-xl pt-8 text-gray-600
+}
+
+.second_divParagh{
+    @apply text-white text-lg pb-16
+}
+
+@media (max-width:800px){
+    .changing_text{
+        @apply text-center text-xl font-medium pt-16
+    }
+
+    .changing_paragh{
+        @apply text-center text-justify text-lg p-5 pt-8 text-gray-600
+    }
+
+    .second_divHead{
+        @apply text-red-600 text-xl 
+    }
+
+    .second_divParagh{
+        @apply text-white text-justify p-3 mt-[-60px]   
+    }
+    
+    
+    
+}
