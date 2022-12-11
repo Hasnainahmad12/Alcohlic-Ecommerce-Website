@@ -2,6 +2,7 @@ import React from 'react'
 import "../Styles/Owner.css";
 import hasnain from "../Images/hasnain.jpg";
 import hasnain5 from "../Images/hasnain1.jpg";
+import Footer from '../Components/Footer';
 
 const Owner = () => {
   return (
@@ -40,8 +41,8 @@ const Owner = () => {
             </div>
 
         </div>
-        <br />
-        <br />
+
+        <Footer />
     </div>
   )
 }

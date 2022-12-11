@@ -3,6 +3,7 @@ import "../Styles/Contacts.css";
 import img from "../Images/door.jpg";
 import img1 from "../Images/location.PNG";
 import emailjs from '@emailjs/browser';
+import Footer from "../Components/Footer";
 
 const Contact = () => {
   const [Done, setDone] = useState(false);
@@ -56,7 +57,8 @@ const Contact = () => {
         </div>
         
       </div>
-
+      
+      <Footer />
     </div>
   )
 }

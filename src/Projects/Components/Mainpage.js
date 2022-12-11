@@ -5,6 +5,7 @@ import "../Styles/Mainpage.css";
 import Cards from './Cards';
 import {FaArrowLeft ,FaArrowRight} from "react-icons/fa";
 import { Slider } from '../Config/Data';
+import Footer from "../Components/Footer";
 
 const Main_page = () => {
     const [Filter, setFilter] = useState(data);
@@ -98,6 +99,8 @@ const Main_page = () => {
             </div>
         })}
     </div>
+
+    <Footer />
 </div>
   )
 }

@@ -2,7 +2,7 @@
     background-image: url("../Images/back.jpg");
     background-position: cover;
     background-size: cover;
-    @apply h-screen w-screen
+    @apply h-[100vh] w-[100%]
 }
 
 .login__container{
@@ -36,6 +36,14 @@
     @apply float-right pr-16 pt-4
 }
 
+.name__password{
+    @apply float-left pr-20 pt-2
+}
+
+.name__password1{
+    @apply float-left pr-20 pt-1
+}
+
 
 @media (max-width:800px){
     
@@ -67,6 +75,14 @@
     
     .forget__password{
         @apply float-right pr-6 pt-4
+    }
+    
+    .name__password{
+        @apply float-left pr-6 pt-4
+    }
+    
+    .name__password1{
+        @apply float-left pr-6 pt-1
     }
     
 }

@@ -3,7 +3,7 @@ import "../Styles/Masterclass.css";
 import glass from "../Images/glass.jpg";
 import glass1 from "../Images/glass1.jpg";
 import glass3 from "../Images/glass3.jpg";
-//import Footer from '../Components/Footer';
+import Footer from '../Components/Footer';
 
 const Masterclass = () => {
   return (
@@ -31,6 +31,7 @@ const Masterclass = () => {
            </div>
         </div>
 
+        <Footer />
       {/* <div className='main__image'>
           <img src={glass} className="first__image" alt='' />
       </div>

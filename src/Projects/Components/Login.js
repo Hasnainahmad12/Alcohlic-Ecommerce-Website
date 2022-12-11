@@ -7,7 +7,7 @@ const Login = () => {
 
   const [Name, setName] = useState("");
   const [Password, setPassword] = useState("");
-
+  //User Name & Password added
   const HandleLogin = (e) =>{
     e.preventDefault();
     if(Name.toLocaleUpperCase() === "USER" && Password.toLocaleUpperCase() === "USER"){
@@ -35,6 +35,9 @@ const Login = () => {
           <button type="submit" className='button__field' onClick={HandleLogin}>Submit</button>
         
             <p className='forget__password'>Forget <span className='text-blue-600'>Password?</span></p>
+
+            <p className='name__password'>User Name :<span className="text-blue-500 font-bold"> user </span></p>
+            <p className='name__password1'>Password :<span className="text-blue-500 font-bold"> user </span></p>
           </form>
           </div>
 

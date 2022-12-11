@@ -10,7 +10,7 @@ import {BrowserRouter , Routes, Route} from "react-router-dom"
 import Owner from './Pages/Owner'
 import Address from './Pages/Masterclass'
 import DetailsPage from './Components/DetailsPage'
-import Footer from './Components/Footer'
+// import Footer from './Components/Footer'
 
 
 const Index = () => {
@@ -28,9 +28,9 @@ const Index = () => {
           <Route path='/contact' element={<Contact />}/>
           <Route path='/detailsPage' element={<DetailsPage />}/>
         </Routes>
-        <Footer /> 
         </BrowserRouter>
         
+        {/* <Footer />  */}
     </div>
   )
 }
